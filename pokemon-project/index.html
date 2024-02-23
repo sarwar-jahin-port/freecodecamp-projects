@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Search App</title>
+    <!-- style sheet link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>POKEMON SEARCH APP</h1>
+    <div class="search-container">
+        <div>
+            <label for="search">Search for Pokemon Name or ID:</label>
+            <div>
+                <input type="text" id="search-input">
+                <button type="submit" id="search-button">Search</button>
+            </div>
+        </div>
+        <div class="pokemon-display">
+            <h3 id="pokemon-name">Pokemon<span id="pokemon-id">#1</span></h3>
+            <p>Weight: <span id="weight">10</span>Height: <span id="height">10</span></p>    
+            <img src="" alt="">
+            <p id="types"><span>FIRE</span></p>
+        </div>
+        <table class="pokemon-details">
+            <tr>
+                <th colspan="2">Base</th>
+                
+                <th>Stats</th>
+            </tr>
+            <tr>
+                <td colspan="2">HP:</td>
+                
+                <td id="hp">0</td>
+            </tr>
+            <tr>
+                <td colspan="2">Attack:</td>
+                
+                <td id="attack">0</td>
+            </tr>
+            <tr>
+                <td colspan="2">Defense:</td>
+                
+                <td id="defense">0</td>
+            </tr>
+            <tr>
+                <td colspan="2">Sp. Attack:</td>
+                
+                <td id="special-attack">0</td>
+            </tr><tr>
+                <td colspan="2">Sp. Defense:</td>
+                
+                <td id="special-defense">0</td>
+            </tr>
+            <tr>
+                <td colspan="2">Speed:</td>
+                
+                <td id="speed">0</td>
+            </tr>
+        </table>
+    </div>
+    <!-- js file link -->
+    <script src="script.js"></script>
+</body>
+</html>
